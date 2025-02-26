@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probléma bejelentés</title>
+</head>
+<body>
+    <h1>Probléma bejelentés</h1><hr>
+    <nav>
+        <a href="/index.html">Főoldal |</a>
+        <a href="/pages/services.html">Szolgáltatások |</a>
+        <a href="/pages/subjects.html">Tárgyak |</a>
+        <a href="/pages/students.html">Hallgatók |</a>
+        <a href="/pages/merch.html">Merch-shop |</a>
+        <a href="/pages/contact.html">Kapcsolat |</a>
+        <a href="/pages/problem.html">Probléma bejelentés |</a>
+    </nav><hr><br>
+    <form>
+        <label for="email">Email cím:</label>
+        <input type="email" id="email" name="email" placeholder="példa@domain.com" required><br><br>
+
+        <label>Értesítést kérek:</label>
+        <input type="radio" id="notify-yes" name="notify" value="igen" required>
+        <label for="notify-yes">Igen</label>
+        <input type="radio" id="notify-no" name="notify" value="nem">
+        <label for="notify-no">Nem</label><br><br>
+
+        <label for="issue-type">Bejelentés típusa:</label>
+        <select id="issue-type" name="issue-type" required>
+            <option value="general">Általános bejelentés</option>
+            <option value="positive-feedback">Pozitív véleményt kívánok tenni</option>
+            <option value="complaint">Panaszt kívánok tenni</option>
+        </select><br><br>
+
+        <label for="subject">Üzenet tárgya:</label>
+        <input type="text" id="subject" name="subject" placeholder="Tárgy" required><br><br>
+
+        <label for="message">Üzenet szövege:</label><br>
+        <textarea id="message" name="message" rows="4" placeholder="Írja ide üzenetét..." required></textarea><br><br>
+
+        <button type="submit">Elküldés</button>
+    </form>
+
+</body>
+</html>
