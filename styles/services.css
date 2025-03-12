@@ -1,0 +1,23 @@
+table {
+    width: 90%;
+    max-width: 1500px;
+    border-collapse: collapse;
+    margin: 20px auto;
+    border: 3px solid black;
+    background-color: white;
+}
+
+td, th {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #ddd;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: rgba(182, 97, 97, 0.412);
+}

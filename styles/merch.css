@@ -1,0 +1,44 @@
+.product {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.add-to-cart {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add-to-cart:hover {
+    background-color: darkgreen;
+}
+
+input {
+    width: 40px;
+    padding: 8px;
+    margin: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    border: 3px solid #555;
+    transition: filter 0.3s, transform 0.3s;
+}
+
+img:hover {
+    filter: grayscale(100%);
+}
+
+.product hr {
+    border: 2px solid #ccc;
+    margin: 20px auto;
+    width: 80%;
+}
